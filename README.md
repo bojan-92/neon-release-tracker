@@ -18,4 +18,4 @@
 ## How to run the application
 1. Clone the project to your local machine with a command: `git clone https://github.com/bojan-92/neon-release-tracker.git`
 2. Run command: `docker-compose up`
-3. The app will run on the port `8080`
+3. The app will run on the port `8080` and host is `localhost`
