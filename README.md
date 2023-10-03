@@ -16,5 +16,6 @@
  - [Postman](https://www.postman.com/) - API Development Environment
 
 ## How to run the application
-###  The first way to run this app:
-Run command: `docker-compose up`
+1. Clone the project to your local machine with a command: `git clone https://github.com/bojan-92/neon-release-tracker.git`
+2. Run command: `docker-compose up`
+3. The app will run on the port `8080`
