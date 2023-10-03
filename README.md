@@ -8,6 +8,7 @@
  - [Spring Boot 3](https://spring.io/projects/spring-boot) - Framework to ease the bootstrapping and development of new Spring Applications
  - [Rest Assured](https://rest-assured.io/) - Java library for testing Restful Web services.
  - [JUnit](https://junit.org/junit5/) - Testing framework for Java
+ - [MongoDB Testcontainers](https://java.testcontainers.org/modules/databases/mongodb/) - Testcontainers is a library that provides throwaway container instances in a test runtime in order to facilitate integration tests with real dependencies
  - [Docker](https://www.docker.com/) - Open source containerization platform
  - [Docker Compose](https://docs.docker.com/compose/) - Tool for defining and running multi-container Docker applications
 
