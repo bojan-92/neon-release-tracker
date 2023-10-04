@@ -17,6 +17,17 @@
  - [Postman](https://www.postman.com/) - API Development Environment
 
 ## How to run the application
-1. Clone the project to your local machine with a command: `git clone https://github.com/bojan-92/neon-release-tracker.git`
-2. Run command: `docker-compose up`
-3. The app will run on the port `8080` and host is `localhost`
+It is a docker based application. Running below command in project's directory builds 2 running containers, neon-release-tracker and mongodb:<br /><br />
+```
+docker-compose up
+```
+## How to use
+This application is Restful and it follows OpenAPI specification in API documentation. Thanks to SwaggerUI, you can see endpoints documentation in a graphical user interface and try their functionality and see the response. After running the containers, you can access the application links:<br /><br />
+ - Application Rest service: http://localhost:8080/v1/releases
+ - SwaggerUI: http://localhost:8080/swagger-ui.html
+
+## Tests
+Tests are runnable using maven command in project directory:<br /><br />
+```
+mvn test
+```
