@@ -6,7 +6,6 @@ import com.neon.entity.Release;
 import com.neon.service.ReleaseService;
 import io.swagger.v3.oas.annotations.OpenAPIDefinition;
 import io.swagger.v3.oas.annotations.Operation;
-import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.info.Info;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;
@@ -70,7 +69,7 @@ public class ReleaseTrackerController {
             @ApiResponse(responseCode = "404", description = "Release not found")
     })
     @GetMapping("/{id}")
-    private ResponseEntity<Release> getRelease(@Parameter(description = "id of Release to be searched") @PathVariable String id) {
+    private ResponseEntity<Release> getRelease(@PathVariable String id) {
         return new ResponseEntity<>(releaseService.findById(id), HttpStatus.OK);
     }
 
