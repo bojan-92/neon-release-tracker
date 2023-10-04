@@ -11,6 +11,7 @@
  - [MongoDB Testcontainers](https://java.testcontainers.org/modules/databases/mongodb/) - Testcontainers is a library that provides throwaway container instances in a test runtime in order to facilitate integration tests with real dependencies
  - [Docker](https://www.docker.com/) - Open source containerization platform
  - [Docker Compose](https://docs.docker.com/compose/) - Tool for defining and running multi-container Docker applications
+ - [OpenAPI 3.0](https://swagger.io/specification/) - The OpenAPI Specification (OAS) defines a standard, language-agnostic interface to HTTP APIs which allows both humans and computers to discover and understand the capabilities of the service without access to source code
 
 ## External Tools Used
  - [Postman](https://www.postman.com/) - API Development Environment
