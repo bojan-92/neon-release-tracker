@@ -17,6 +17,10 @@
  - [Postman](https://www.postman.com/) - API Development Environment
 
 ## How to run the application
+Clone project to local machine usinf `git` command:<br /><br />
+```
+git clone https://github.com/bojan-92/neon-release-tracker.git
+```
 It is a docker based application. Running below command in project's directory builds 2 running containers, neon-release-tracker and mongodb:<br /><br />
 ```
 docker-compose up
