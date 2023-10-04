@@ -70,7 +70,7 @@ public class ReleaseTrackerController {
             @ApiResponse(responseCode = "404", description = "Release not found")
     })
     @GetMapping("/{id}")
-    private ResponseEntity<Release> getRelease(@Parameter(description = "id of Release to be searched") @PathVariable String id) {
+    private ResponseEntity<Release> getRelease(@PathVariable String id) {
         return new ResponseEntity<>(releaseService.findById(id), HttpStatus.OK);
     }
 
